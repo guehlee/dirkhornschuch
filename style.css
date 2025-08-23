@@ -1,0 +1,23 @@
+/* Landingpage */
+.landingframe{
+}
+.project_marquee{}
+.project{}
+.thumbnail{}
+
+/* Previewpage */
+
+/* Aboutpage */
+.aboutpage{}
+
+.about-title{
+    position: absolute;
+    /* font-family: ;
+    font-size: ; */
+    color: yellow;
+    outline: black 1px;
+}
+
+.about{}
+.imprint{}
+.datapolicy{}
