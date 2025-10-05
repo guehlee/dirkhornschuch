@@ -5,33 +5,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dirk Hornschuch</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+
+  <!-- LINK ALL CSS FILES HERE -->
 </head>
 
 
 <body>
-  <div class=" screen landingframe">
-    <div class="project_marquee">
-      <div class="project">
-        <div class="thumbnail">
+
+  <!-- Landingpage -->
+    <div class="landingpage-wrapper">
+    <div class="marquee-wrapper">
+      <div class="marquee">
+        <div class="colorbox">
+          <div class="thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="language-selector">
+      <div class="language" id="de">DE</div>
+      <div class="language" id="en">EN</div>
+    </div>
+  </div>
+  
+  <!-- Projectview -->
+  <div class="projectview">
+    <div class="marquee-wrapper" id="projectview-marquee-wrapper">
+      <div class="marquee">
+        <div class="colorbox active">
+          <div class="thumbnail"></div>
+          <div class="navigation-wrapper">
+            <div class="play button"></div>
+            <div class="volume button slider"></div>
+            <div class="close button"></div>
+          </div>
+        </div>
+        <div class="colorbox">
         </div>
       </div>
     </div>
   </div>
-  <div class="screen aboutpage">
-    <div class="about">
-      <p class="about-title"></p>
-    </div>
-    <div class="about imprint">
-            <p class="about-title"></p>
-    </div>
-    <div class="about datapolicy">
-            <p class="about-title"></p>
-    </div>
-    <div class="screen" style="background-color: blueviolet;"></div>
-  </div>
-
   
-</body>
+  <div class="video-wrapper">
+    <video id="video" autoplay muted loop>
+    </video>
+  </div>
+  
+  <div class="info-wrapper">
+    <div class="project-title">Project-title</div>
+    <div class="credits">Credit</div>
+  </div>
+  
+  <!-- Menu -->
+    <div class="menu-wrapper">
+      <div class="menu" id="name"> Dirk Hornschuch</div>
+      <div class="menu" id="about">About</div>
+      <div class="menu" id="imprint">Imprint</div>
+      <div class="menu" id="policy">Data Policy</div>
+    </div>
+
+
+  </body>
 
 </html>
