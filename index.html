@@ -1,73 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirk Hornschuch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dirk Hornschuch</title>
-  <link rel="stylesheet" href="/style.css">
-  <script src="/script.js" defer></script>
+    <!-- LINK ALL CSS FILES HERE -->
+  </head>
 
-  <!-- LINK ALL CSS FILES HERE -->
-</head>
-
-
-<body>
-
-  <!-- Landingpage -->
-    <div class="landingpage-wrapper">
-    <div class="marquee-wrapper">
-      <div class="marquee">
-        <div class="colorbox">
-          <div class="thumbnail">
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="language-selector">
-      <div class="language" id="de">DE</div>
-      <div class="language" id="en">EN</div>
-    </div>
-  </div>
-  
-  <!-- Projectview -->
-  <div class="projectview">
-    <div class="marquee-wrapper" id="projectview-marquee-wrapper">
-      <div class="marquee">
-        <div class="colorbox active">
-          <div class="thumbnail"></div>
-          <div class="navigation-wrapper">
-            <div class="play button"></div>
-            <div class="volume button slider"></div>
-            <div class="close button"></div>
-          </div>
-        </div>
-        <div class="colorbox">
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="video-wrapper">
-    <video id="video" autoplay muted loop>
-    </video>
-  </div>
-  
-  <div class="info-wrapper">
-    <div class="project-title">Project-title</div>
-    <div class="credits">Credit</div>
-  </div>
-  
-  <!-- Menu -->
+  <body>
+    <!-- Navigation Menu -->
     <div class="menu-wrapper">
-      <div class="menu" id="name"> Dirk Hornschuch</div>
-      <div class="menu" id="about">About</div>
-      <div class="menu" id="imprint">Imprint</div>
-      <div class="menu" id="policy">Data Policy</div>
+      <div id="menu-home" class="menu" href="#home">Dirk Hornschuch</div>
+      <div id="menu-about" class="menu" href="about">About</div>
+      <div id="menu-imprint" class="menu" href="imprint">Imprint</div>
+      <div id="menu-policy" class="menu" href="policy">Data Policy</div>
     </div>
 
+    <!-- LANDINGPAGE -->
+    <section id="home" class="landingpage-wrapper">
+      <div class="marquee-wrapper">
+        <div class="marquee">
+          <div class="colorbox">
+            <div class="thumbnail"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ABOUTPAGE -->
+    <section class="aboutpage-wrapper" id="about">
+      <div class="section-sentinel" aria-hidden="true"></div>
+    </section>
+
+    <!-- IMPRINTPAGE -->
+    <section class="imprintpage-wrapper" id="imprint">
+      <div class="section-sentinel" aria-hidden="true"></div>
+    </section>
+
+    <!-- DATAPOLICYPAGE -->
+    <section class="datapolicypage-wrapper" id="policy">
+      <div class="section-sentinel" aria-hidden="true"></div>
+    </section>
+
+    <!--------------------------------->
+    <!---------- [PROJECT.PHP] -------->
+    <!-- ------------------------------>
+
+    <!-- Language selector -->
+    <!-- <div class="language-selector">
+        <div class="language" id="de">DE</div>
+        <div class="language" id="en">EN</div>
+      </div>
+    </div> -->
+
+    <!-- Projectview
+    <div class="projectview">
+      <div class="marquee-wrapper" id="projectview-marquee-wrapper">
+        <div class="marquee">
+          <div class="colorbox active">
+            <div class="thumbnail"></div>
+            <div class="navigation-wrapper">
+              <div class="play button"></div>
+              <div class="volume button slider"></div>
+              <div class="close button"></div>
+            </div>
+          </div>
+          <div class="colorbox"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-wrapper">
+      <video id="video" autoplay muted loop></video>
+    </div>
+
+    <div class="info-wrapper">
+      <div class="project-title">Project-title</div>
+      <div class="credits">Credit</div>
+    </div> -->
   </body>
-
 </html>
