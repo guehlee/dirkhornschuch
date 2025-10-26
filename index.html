@@ -1,78 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirk Hornschuch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dirk Hornschuch</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="/script.js" defer></script>
+  <body>
+    <div class="container">
+      <!-- NAVIGATION -->
 
-  <!-- LINK ALL CSS FILES HERE -->
-</head>
+      <!-- LANDINGPAGE -->
+      <section id="home" class="landingpage-wrapper">
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            <div class="colorbox" style="background-color: aqua">
+              <div class="thumbnail"></div>
+            </div>
+            <div class="colorbox" style="background-color: rgb(222, 106, 106)">
+              <div class="thumbnail"></div>
+            </div>
+            <div class="colorbox" style="background-color: greenyellow">
+              <div class="thumbnail"></div>
+            </div>
+            <div class="colorbox" style="background-color: aqua">
+              <div class="thumbnail"></div>
+            </div>
+            <div class="colorbox" style="background-color: rgb(222, 106, 106)">
+              <div class="thumbnail"></div>
+            </div>
+            <div class="colorbox" style="background-color: greenyellow">
+              <div class="thumbnail"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<body>
-  <!-- Navigation Menu -->
-  <div class="menu-wrapper">
-    <div id="menu-home" class="menu" href="#home">Dirk Hornschuch</div>
-    <div id="menu-about" class="menu" href="about">About</div>
-    <div id="menu-imprint" class="menu" href="imprint">Imprint</div>
-    <div id="menu-policy" class="menu" href="policy">Data Policy</div>
-  </div>
+      <!-- ABOUTPAGE -->
 
-  <!-- LANDINGPAGE -->
-  <section id="home" class="landingpage-wrapper">
-    <div class="marquee-wrapper">
-      <div class="marquee">
-        <div class="colorbox" style="background-color: aqua;">
-          <div class="thumbnail"></div>
+      <a class="menu menu-home" href="#home" data-section="home"
+        >Dirk Hornschuch
+      </a>
+      <a class="menu menu menu-about" href="#about">About</a>
+      <section class="aboutpage-wrapper" id="about">
+        <div class="bio">
+          <p>bio text comes here</p>
         </div>
-        <div class="colorbox" style="background-color: rgb(222, 106, 106);">
-          <div class="thumbnail"></div>
+        <div class="education-wrapper">
+          <div class="education chart">
+            <h2 class="heading">Education</h2>
+            <dl class="cv-grid">
+              <dt><time>2024</time></dt>
+              <dd>
+                Mediale Künste (Film/TV), postgraduales Diplomstudium,
+                Kunsthochschule für Medien, Köln.
+              </dd>
+            </dl>
+          </div>
+
+          <div class="scholarship chart">
+            <h2 class="heading">Scholarship</h2>
+            <dl class="cv-grid">
+              <dt><time>2024</time></dt>
+              <dd>
+                Mediale Künste (Film/TV), postgraduales Diplomstudium,
+                Kunsthochschule für Medien, Köln.
+              </dd>
+            </dl>
+          </div>
         </div>
-        <div class="colorbox" style="background-color: greenyellow;">
-          <div class="thumbnail"></div>
+
+        <div class="filmography chart">
+          <h2 class="heading">Filmography</h2>
+          <dl class="cv-grid">
+            <dt><time>2024</time></dt>
+            <dd>
+              Mediale Künste (Film/TV), postgraduales Diplomstudium,
+              Kunsthochschule für Medien, Köln.
+            </dd>
+          </dl>
         </div>
-        <div class="colorbox" style="background-color: aqua;">
-          <div class="thumbnail"></div>
+      </section>
+
+      <!-- IMPRINTPAGE -->
+
+      <a class="menu menu-imprint" href="#imprint">Imprint</a>
+      <section class="imprintpage-wrapper" id="imprint">
+        <div class="contact-wrapper">
+          <address class="contact-list margin-5">
+            <h2 class="heading">Dirk Hornschuch</h2>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a href="mailto:email@email.com">email@email.com</a>
+            <p class="phone">+49 000 00000</p>
+            <p class="addr">Halle, Germany</p>
+          </address>
+
+          <address class="contact-list margin-1-5">
+            <h2 class="heading">Web Desing & Development</h2>
+
+            <p>Timon Wallianos</p>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a href="mailto:email@email.com">email@email.com</a>
+            <p class="phone">+49 000 00000</p>
+            <p class="addr">Halle, Germany</p>
+          </address>
+
+          <address class="contact-list margin-5">
+            <p>Gue Hyun Lee</p>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a href="mailto:email@email.com">email@email.com</a>
+            <p class="phone">+49 000 00000</p>
+            <p class="addr">Halle, Germany</p>
+          </address>
         </div>
-        <div class="colorbox" style="background-color: rgb(222, 106, 106);">
-          <div class="thumbnail"></div>
-        </div>
-        <div class="colorbox" style="background-color: greenyellow;">
-          <div class="thumbnail"></div>
-        </div>
-      </div>
+      </section>
+
+      <!-- DATAPOLICYPAGE -->
+      <a class="menu menu-policy" href="#policy">Data Policy</a>
+      <section class="datapolicypage-wrapper" id="policy">
+        <p></p>
+      </section>
     </div>
-  </section>
 
-  <!-- ABOUTPAGE -->
-  <section class="aboutpage-wrapper" id="about">
-    <div class="section-sentinel" aria-hidden="true"></div>
-  </section>
+    <!--------------------------------->
+    <!---------- [PROJECT.PHP] -------->
+    <!-- ------------------------------>
 
-  <!-- IMPRINTPAGE -->
-  <section class="imprintpage-wrapper" id="imprint">
-    <div class="section-sentinel" aria-hidden="true"></div>
-  </section>
-
-  <!-- DATAPOLICYPAGE -->
-  <section class="datapolicypage-wrapper" id="policy">
-    <div class="section-sentinel" aria-hidden="true"></div>
-  </section>
-
-  <!--------------------------------->
-  <!---------- [PROJECT.PHP] -------->
-  <!-- ------------------------------>
-
-  <!-- Language selector -->
-  <!-- <div class="language-selector">
+    <!-- Language selector -->
+    <!-- <div class="language-selector">
         <div class="language" id="de">DE</div>
         <div class="language" id="en">EN</div>
       </div>
     </div> -->
 
-  <!-- Projectview
+    <!-- Projectview
     <div class="projectview">
       <div class="marquee-wrapper" id="projectview-marquee-wrapper">
         <div class="marquee">
@@ -97,6 +175,5 @@
       <div class="project-title">Project-title</div>
       <div class="credits">Credit</div>
     </div> -->
-</body>
-
+  </body>
 </html>
